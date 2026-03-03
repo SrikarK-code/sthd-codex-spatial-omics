@@ -48,7 +48,7 @@ We will quantify how the genetic interaction between two simultaneous CRISPR kno
 ## Project 2B: Spatially Dynamic Gene Regulatory Networks
 
 **Overall Approach**  
-We will infer how causal gene regulatory networks dynamically rewire across spatial coordinates by treating CRISPR edits as targeted interventional anchors. We will design a variational inference framework that maps directed downstream effects, establishing network connections as continuous functions of the spatial microenvironment.
+We will infer how causal gene regulatory networks dynamically rewire across spatial coordinates by treating CRISPR edits as targeted interventional anchors. We will design a variational inference framework that maps directed downstream effects, establishing network connections as continuous functions of the spatial microenvironment. It is gene wise modeling. In this model, the nodes are individual genes, and we are tracking how one gene directly regulates another gene inside a cell. The spatial component simply means that this specific gene to gene wiring changes dynamically based on where the cell physically sits in the tissue.
 
 ### Milestone 1: Causal Framework Design and Data Setup (Week 1)
 - Task 1: Isolate the single knockout Perturb map data and relevant spatial coordinate matrices.
