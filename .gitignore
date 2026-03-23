@@ -1,0 +1,14 @@
+# Ignore raw data and logs
+data/
+logs/
+
+# Ignore all pipeline output directories
+intestine_*
+sthd_ct_intestine/
+
+# Ignore heavy file extensions
+*.csv
+*.tsv
+*.out
+*.npy
+*.h5ad
